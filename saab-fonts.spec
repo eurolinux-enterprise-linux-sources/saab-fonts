@@ -3,7 +3,7 @@
 
 Name:        %{fontname}-fonts
 Version:     0.91
-Release:     10%{?dist}
+Release:     9%{?dist}
 Summary:     Free Punjabi Unicode OpenType Font
 
 Group:       User Interface/X
@@ -47,9 +47,6 @@ ln -s %{_fontconfig_templatedir}/%{fontconf} \
 %doc License_font_exception.txt
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.91-10
-- Mass rebuild 2013-12-27
-
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.91-9
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
